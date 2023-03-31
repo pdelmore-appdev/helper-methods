@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   
   # UPDATE
   patch "/movies/:id" => "movies#update"
-  get "/movies/:id/edit" => "movies#edit", as: :edit_moive
+  get "/movies/:id/edit" => "movies#edit", as: :edit_movie
     # gives edit_movie_path() -> will expect argument for id
   
   # DELETE
